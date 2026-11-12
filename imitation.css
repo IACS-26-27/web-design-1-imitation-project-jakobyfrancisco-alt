@@ -1,1 +1,103 @@
+* {
+  box-sizing: border-box;
+}
 
+body {
+  margin: 0;
+  padding: 0;
+  color: #ffffff;
+  font-family: Montserrat ExtraBold;
+}
+
+.poster {
+  width: 471px;
+  height: 649px;
+  background-color: #000;
+  margin: 20px auto;
+  position: relative;
+  overflow: hidden;
+  isolation: isolate;
+}
+
+/*title*/
+.heading {
+  position: absolute;
+  top: 18px;
+  width: 100%;
+  text-align: center;
+}
+
+.heading h1 {
+  font-size: 31px;
+  letter-spacing: 2px;
+  margin: 0;
+  front-weight: 800;
+}
+
+.header p {
+  font-size: 10px;
+  letter-spacing: 10px;
+  margin-top: 1px;
+}
+
+.watch-area {
+  position: absolute;
+  top: 70px;
+  left: 5px;
+  width: 390px;
+  height: 505px;
+  z-index: 1;
+}
+
+.watch-area img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.description {
+  position: absolute;
+  bottom: 105px;
+  right: 12px;
+  width: 170px;
+  text-align: right;
+  font-size: 7px;
+}
+
+.description h2 {
+  font-size: 9px;
+  margin-bottom: 2px;
+}
+
+.description p {
+  line-height: 1.4;
+}
+
+.footer {
+  position: absolute;
+  bottom: 12px;
+  width: 100%;
+  text-align: center;
+  font-size: 7px;
+}
+
+.footer h2 {
+  font-size: 12px;
+  margin-bottom: 3px;
+}
+
+.footer p {
+  margin: 3px;
+}
+
+.heading {
+  z-index: 2;
+}
+
+.description {
+  z-index: 2;
+}
+
+.footer {
+  z-index: 2;
+}
